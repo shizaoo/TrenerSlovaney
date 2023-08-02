@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+	margin: 0;
+  list-style: none;
+  text-decoration: none;
+	box-sizing: border-box;
+}
+.title h1{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #fcfffc;
+}
+.list_menu a{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25px;
+  color: #fcfffc;
+}
+.list_menu{
+  margin-bottom: 50px;
+}
+.list_menu li{
+  margin: 25px 0;
+}
+.menu{
+  padding: 25vh 50px;
+  position: fixed;
+  background: rgba(20, 20, 20, 0.5);
+  height: 100vh;
+  backdrop-filter: blur[16]
+}
+.content{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
